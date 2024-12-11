@@ -94,41 +94,35 @@ How to Run the Project
 1. Clone the repository:
 
 
-   git clone https://github.com/codebasics/bangalore_price_prediction.git
-   cd bangalore_price_prediction
+   git clone https://github.com/Shravlearner/ML-model-for-real-estate.git
+   cd ML-model-for-real-estate
    
 
 2. Install dependencies:
 
-   ```bash
    pip install -r requirements.txt
-   ```
+   
 
 3. Run the Flask application:
 
-   ```bash
-   python app.py
-   ```
+   python server.py
+   
 
 4. Open the application in your browser at `http://127.0.0.1:5000/`.
 
----
+Results
 
-## Results
-
-- The best-performing model achieved an R-squared value of **0.85** on the test dataset.
+- The best-performing model achieved an R-squared value of 0.85 on the test dataset.
 - The web application can predict house prices within a reasonable margin of error based on user inputs.
 
----
 
-## Future Improvements
+Future Improvements
 
 1. Expand the dataset to include more features like proximity to schools, hospitals, and public transportation.
 2. Experiment with advanced machine learning algorithms like Gradient Boosting and Neural Networks.
 3. Deploy the application to a cloud platform like AWS, GCP, or Heroku for wider accessibility.
 
----
 
-## Acknowledgments
+Acknowledgments
 
 This project was inspired by the Codebasics YouTube tutorial on machine learning. Special thanks to Codebasics for providing guidance and insights into building end-to-end machine learning projects.
