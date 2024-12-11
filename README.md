@@ -1,6 +1,6 @@
 Bangalore House Price Prediction
 
-An end-to-end machine learning project to predict house prices in Bangalore based on various features like location, square footage, number of bedrooms, and more. The project demonstrates the entire data science workflow from data preprocessing to model deployment.
+An end-to-end machine learning project to predict house prices in Bangalore based on various features like location, square footage, number of bedrooms, and more. The project demonstrates the entire data science workflow from data preprocessing to model deployment. This project predicts house prices in Bangalore using machine learning and deep learning techniques.
 
 Table of Contents
 
@@ -21,6 +21,9 @@ The objective of this project is to build a machine learning model that predicts
 - Data cleaning and preprocessing.
 - Feature engineering.
 - Model training and evaluation.
+       |-Linear Regression
+       |-Neural Networks
+- Comparison of model performances
 - Deploying the model as a web application using Flask.
 
 Dataset
@@ -83,6 +86,12 @@ Key Features
    - Trained multiple regression models (Linear Regression, Decision Trees, etc.).
    - Performed hyperparameter tuning.
    - Selected the best-performing model based on evaluation metrics like RMSE and R-squared.
+   - 
+3. Neural Network Implementation
+A deep learning model was implemented using TensorFlow to predict house prices. The architecture consists of:
+- Input layer matching the number of features.
+- Two hidden layers with 64 and 32 neurons respectively, both using ReLU activation.
+- An output layer with a single neuron and a linear activation function.
 
 3. Web Application:
    - Integrated the model into a Flask web application.
@@ -112,8 +121,15 @@ How to Run the Project
 
 Results
 
-- The best-performing model achieved an R-squared value of 0.85 on the test dataset.
-- The web application can predict house prices within a reasonable margin of error based on user inputs.
+The performance of the Neural Network was compared to a Linear Regression model.
+
+| Metric                | Linear Regression | Neural Network        |
+|-----------------------|-------------------|----------------       |
+| Mean Squared Error (MSE) | 711.06             | 1655.81       |
+| R-squared (R²)        | 0.8629             | 0.6808           |
+
+- Linear Regression outperformed the Neural Network in this case.
+- Neural Network might require more fine-tuning, feature engineering, or data normalization for better performance.
 
 
 Future Improvements
