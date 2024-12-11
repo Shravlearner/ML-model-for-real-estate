@@ -55,24 +55,23 @@ pip install -r requirements.txt
 Project Structure
 
 bhp/
-|
 ├── Client/
-      |-app.css
-      |-app.html
-      |-app.js
-├── Model/  
-      |-banglore_home_prices_final (2).ipynb
-      |-Bengaluru_House_Data.csv
-      |-bhp.csv
-     
-├── Server/   
-      |-server.py
-      |-util.py
-      |-artifacts
-            |-banglore_home_prices_final.pickle
-            |-columns.json
-├── requirements.txt    
-├── README.md           
+│   ├── app.css
+│   ├── app.html
+│   └── app.js
+├── Model/
+│   ├── banglore_home_prices_final (2).ipynb
+│   ├── Bengaluru_House_Data.csv
+│   └── bhp.csv
+├── Server/
+│   ├── server.py
+│   ├── util.py
+│   └── artifacts/
+│       ├── banglore_home_prices_final.pickle
+│       └── columns.json
+├── requirements.txt
+└── README.md
+          
 
 Key Features
 
