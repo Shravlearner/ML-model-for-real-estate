@@ -53,7 +53,7 @@ Install the dependencies using the following command:
 pip install -r requirements.txt
 
 Project Structure
-
+```plaintext
 bhp/
 ├── Client/
 │   ├── app.css
@@ -71,7 +71,7 @@ bhp/
 │       └── columns.json
 ├── requirements.txt
 └── README.md
-          
+```
 
 Key Features
 
